@@ -1,0 +1,563 @@
+html{
+    font-size:62.5% ;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* google fonts */
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* reuseable tag ========================== */
+
+.row{
+    width: 90%;
+    margin:0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn:link,
+.btn:visited,
+.btn{
+    background: rgb(61, 53, 53);
+    color: #fff;
+    border-bottom: .5rem solid black;
+    padding: 2rem 5rem;
+    border-radius: .4rem;
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+/* =============end=============== */
+
+/* ===============start===================== */
+/* header-area */
+
+header{
+    background:linear-gradient(#87509ce7,#87509ce8),url(image/1.jpg) ;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 95vh;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.logo{
+    height: 3.5rem;
+    width: auto;
+    margin-top: 4rem;
+    float: left;
+}
+
+.main-manu{
+    float: right;
+    margin-top: 4rem;
+}
+
+.main-manu li{
+    display: inline-block;
+    
+    margin-left: .5rem;
+}
+.main-manu li:first-child{
+    margin-left:0;
+}
+.main-manu li a:link,
+.main-manu li a:visited{
+    text-transform: uppercase;
+    padding: .5rem 1.6rem;
+    color: #fff;
+    background: #643a7905;
+    border-radius: 3px;
+    display:inline-block;
+    font-size: 1.6rem;
+    transition: .5s;
+}
+.main-manu li:hover a:link,
+.main-manu li:hover a:visited{
+    background: #643a79;
+}
+.main-manu li.active a{
+    background: #643a79;
+   
+}
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background:#87509ce7 ;
+    padding: 1rem 0;
+    box-shadow:0 1px 3px white;
+    z-index: 9999;
+    
+}
+.sticky .logo{
+    margin-top: 0;
+}
+.sticky .main-manu{
+    margin-top: 0;
+}
+
+
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    
+}
+.hero-text-box h1{
+    color: #fff;
+    font-size: 4.2rem;
+    display: inline-block;
+      
+}
+
+header .hero-text-box .btn-hero{
+    background: #EB7D4A;
+    border-color: #9e6951;
+    margin-top: 2rem;
+}
+/* mobile menu */
+.mobile-menu span{
+    font-size: 4rem;
+    color: #fff;
+    float: right;
+    margin-top: 15px;
+    display: none;
+}
+.mobile-menu span:hover{
+    cursor: pointer;
+}
+.mobile-menu .overlay .close{
+    font-size: 6rem;
+    float: right;
+    margin-top: 15px;
+    color: red;
+    margin-right: 20px;
+}
+.mobile-menu .overlay{
+    width: 0;
+    background: rgba(0, 0, 0, 0.863);
+    height: 100%;
+    overflow-x: hidden;
+    z-index: 1;
+    position: fixed;
+    top:0;
+    left: 0;
+    transition: .5s;
+}
+.overlay-content a{
+    font-size:3rem;
+    display: block;
+    
+    margin: auto;
+    text-transform: uppercase;
+    color: #f80606;
+    
+}
+.mobile-menu .overlay-content{
+    
+    position: relative;
+    top: 25%;
+    text-align: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+/* =================end==================== */
+
+/* =================sarvices area start ==================== */
+/* reuseable */
+
+h2{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    
+}
+hr{
+    margin: auto;
+    width:10rem ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:.5rem solid rgba(122, 106, 106, 0.308);
+}
+.sk{
+    font-size: 2rem;
+    padding-top: 2rem;
+    width: 57%;
+    margin: auto;
+    color: #fff;
+}
+.text-area{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+section{
+    padding:10rem 0;
+}
+.sarvice-area .box{
+    margin: auto;
+    text-align: center;
+    
+    
+}
+
+/* ========================== */
+.sarvice-area{
+    background:linear-gradient(#11f0cba9,#17c1a58f),url(image/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.sarvice-area h3{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+}
+.sarvice-area .box p{
+    color: #fff;
+    font-size: 1.9rem;
+    letter-spacing: .1rem;
+    font-weight: normal;
+}
+
+.sarvice-area .box .pk{
+    height: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* =================sarvices area end==================== */
+
+
+/* =================team area end==================== */
+
+.team-area{
+    background:linear-gradient(#e7f2f8af, #e7f2f8b0),url(image/3.jpg);
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+
+}
+.team-area .box .pk1{
+    height: 16rem;
+    width: 16rem;
+    margin: 2rem auto;
+    border-radius: 8rem;
+   
+}
+.team-area .box {
+    padding: 0 1rem;
+}
+.team-area .row{
+    margin: auto;
+    text-align: center;
+}
+.team-area h3{
+    color: rgb(12, 12, 12);
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.team-area .box h4{
+    font-size: 1.5rem;
+    color: #31B5CC;
+    margin-bottom: 1rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+}
+
+.team-area .box p{
+    text-align: center;
+    color: rgb(100, 79, 79);
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    font-weight: normal;
+}
+.team-area .box .icon{
+    font-size: 3rem;
+    padding:.5rem 0;
+    display: inline-block;
+}
+.team-area .box .icon a:link i::before{
+    padding: 0 .5rem;
+    color: #C8D9E3;
+    transition: .3s;
+    background: rgb(165, 148, 148);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.team-area h2{
+    font-size: 4rem;
+    color: rgb(46, 33, 33);
+    margin-bottom: 1rem;
+}
+.team-area .box .icon a:hover i::before{
+    background: black;
+    transform: rotate(360deg);
+}
+/* =================team area end==================== */
+
+
+
+/* =================skill area start==================== */
+
+.skill-area{
+    background:linear-gradient(#31b5cc98,#31b5cca6) ,url(image/1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skill-area .text-area h2, .sk{
+    color:black
+}
+.skill-area h3{
+    color: rgb(12, 12, 12);
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+ .pie-title-center {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+  
+  .pie-value {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -20px;
+    line-height: 40px;
+  }
+
+  .skill-area .box{
+    margin: 3rem auto;
+    text-align: center;
+  }
+ 
+/* =================skill area end==================== */
+/* =================protfollio-area area start==================== */
+
+.protfollio-area{
+    background: linear-gradient(#ffdd9996,#ffdd9994) ,url(image/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.protfollio-area .bottom-area{
+    text-align: center;
+    margin-top: 3rem;
+}
+.protfollio-area .bottom-area button{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    border: none;
+    background: #ECC985;
+    
+
+}
+.protfollio-area .bottom-area button:hover{
+
+    box-shadow: inset 0 3px 9px black;
+    background: #fff;
+}
+.bottom-area button:first-child{
+    margin-left: 0;
+}
+.protfollio-area h5{
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.protfollio-area .box{
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+}
+.protfollio-area .box img{
+    width: 45rem;
+    height: 25rem;}
+   
+ .protfollio-area .bottom-area button.mixitup-control-active{
+    background: #fff;
+
+
+}  
+
+.protfollio-area .btn-load{
+    background: #147c69;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    border-bottom: .5rem solid #31b5cc50;
+    font-size: 2rem;
+    border-radius: .7rem;
+}
+
+/* =================protfollio-area end==================== */
+/* =================about-area start==================== */
+.about-area{
+    background: linear-gradient(#d7468065,#d746807e),url(image/3.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.about-area .text-area{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+} 
+.about-area .text-area p{
+    margin:2rem 0;
+
+}
+.about-area .about-photo{
+    float: left;
+    width: 15rem;
+   
+}
+.about-area .about-photo img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.about-area .about-text{
+    
+    width: 30rem;
+    float: left;
+    font-style: italic;
+    font-size: 2rem;
+    color: #fff;
+    
+    
+}
+.about-area .lk{
+    margin-top: 3rem;
+}
+.about-area .about-text h3{
+    margin-top: 2rem;
+    font-size:2.5rem ;
+}
+.about-area .about-text span{
+    color: #FFDA9C;
+}
+.about-area .col:nth-child(3){
+    margin: 1% 0 1% 0%;
+}
+
+/* =================about-area end==================== */
+/* =================from-area staet==================== */
+
+.from-area{
+    background: linear-gradient(#3c549a4d,#3c549a62),url(image/2.jpg);
+    background-position: center,top;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    text-align: center;
+    text-transform: uppercase;
+}
+.from-area .text-area hr{
+    border-bottom:.4rem solid #0a2874 ;
+}
+.from-area .text-area p{
+    color: #fff;
+    font-size: 2rem;
+}
+.from-area input[type="text"],
+.from-area input[type="Email"],
+.from-area textarea{
+    background: #273A72;
+    width: 100%;
+    padding: 2rem;
+    border-radius: .5rem;
+    margin: 2rem;
+    border: none;
+    font-size: 2rem;
+}
+.from-area form{
+    width: 70%;
+    margin: auto;
+}
+.from-area form ::placeholder{
+    
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 1;
+}
+.from-area form .btn-input{
+    background: #30BAE8;
+    border: 0;
+    border-bottom: .5rem solid #11444e;
+}
+/* =================from-area end==================== */
+/* =================footer-area start==================== */
+.footer-area{
+    background: #0a2874;
+    padding: 2rem;
+    text-align: center;
+    padding:2rem;
+}
+.footer-area li{
+    display: inline-block;
+    padding:0 2rem ;
+}
+.footer-area ul li a{
+    font-size: 3rem;
+    color: #30BAE8;
+    text-transform:capitalize
+}
+.footer-area ul li a:hover{
+    color: #1c4de0;
+}
+/* =================footer-area end==================== */

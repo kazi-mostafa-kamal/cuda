@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,900;1,200;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/normaliz.css" />
+    <link rel="stylesheet" href="css/responsivegrid.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- header area start from here -->
+
+    <header id="home">
+      <nav>
+        <div class="row">
+          <a href="#">
+            <img src="image/logo.png" alt="cuda" class="logo" />
+          </a>
+
+          <ul class="main-manu">
+            <li class="active"><a href="#home">home</a></li>
+            <li><a href="#service">service</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#skills">blog</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+          <div class="mobile-menu">
+            <span onclick="openNav()" >&#9776;</span>
+            <div id="mynav" class="overlay">
+              <a onclick="closeNav()" class="close" href="javascript:void()">&times;</a>
+              <div class="overlay-content">
+                <a onclick="closeNav()" href="#home">home</a>
+                <a onclick="closeNav()" href="#service">service</a>
+                <a onclick="closeNav()" href="#work">work</a>
+                <a onclick="closeNav()" href="#skills">blog</a>
+                <a onclick="closeNav()" href="#about">about</a>
+                <a onclick="closeNav()" href="#contact">contact</a>
+              </div>
+              
+            </div>
+            
+            
+          </div>
+          
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="hero-text-box">
+          <h1>Hi there!We are the new kids on the block and we build awesome website and mobile apps.</h1>
+          <a href="#" class="btn btn-hero">work with us!</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- header area end from here -->
+
+    <!-- sarvices area start from here -->
+
+    <section class="sarvice-area js-stecky" id="service">
+      <div class="row">
+        <div class="text-area">
+          <h2>SERVICES WE PROVIDE</h2>
+          <hr />
+          <p class="sk">We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col span_1_of_4 box">
+          <img src="image/plag.png" alt="plag" class="pk" />
+          <h3>Branding</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <img src="image/pancial.png" alt="plag" class="pk" />
+          <h3>Design</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <img src="image/satting.png" alt="plag" class="pk" />
+          <h3>Development</h3>
+          <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <img src="image/rockat.png" alt="plag" class="pk" />
+          <h3>ROCKET SCIENCE</h3>
+          <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- sarvice area end from here -->
+
+    <!-- team area end from here -->
+
+    <section class="team-area" id="work">
+      <div class="row">
+        <div class="text-area">
+          <h2>MEET OUR BEAUTIFUL TEAM</h2>
+          <hr />
+          <p class="sk">We are a small team of designers and developers, who help brands with big ideas.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col span_1_of_4 box">
+          <img src="image/ss1.jpg" alt="plag" class="pk1" />
+          <h3>ANNE HATHAWAY</h3>
+          <h4>CEO / Marketing Guru</h4>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+          <ul class="icon">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <img src="image/ss2.jpg" alt="plag" class="pk1" />
+          <h3>Kate Upton</h3>
+          <h4>Creative Director</h4>
+          <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+          <ul class="icon">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <img src="image/ss3.jpg" alt="plag" class="pk1" />
+          <h3>Olivia Wilde</h3>
+          <h4>Lead Designer</h4>
+          <p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+          <ul class="icon">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <img src="image/ss4.jpg" alt="plag" class="pk1" />
+          <h3>Ashley Greene</h3>
+          <h4>SEO / Developer</h4>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam..</p>
+          <ul class="icon">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- team area end from here -->
+
+    <!-- skils area start from here -->
+
+    <section class="skill-area" id="skills">
+      <div class="row">
+        <div class="text-area">
+          <h2>we go skills!</h2>
+          <hr />
+          <p class="sk">We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col span_1_of_4 box">
+          <div id="example" class="pie-title-center" data-percent="90">
+            <span class="pie-value">90%</span>
+          </div>
+
+          <h3>web degine</h3>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <div id="mk" class="pie-title-center" data-percent="75">
+            <span class="pie-value">75%</span>
+          </div>
+
+          <h3>html/css</h3>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <div id="sk" class="pie-title-center" data-percent="70">
+            <span class="pie-value">70%</span>
+          </div>
+
+          <h3>graphic design</h3>
+        </div>
+
+        <div class="col span_1_of_4 box">
+          <div id="kk" class="pie-title-center" data-percent="85">
+            <span class="pie-value">85%</span>
+          </div>
+          <h3>ui/ux</h3>
+        </div>
+      </div>
+    </section>
+    ii
+
+    <!-- skills area end from here -->
+    <!-- protfollio area start from here -->
+    <section class="protfollio-area">
+      <div class="row">
+        <div class="text-area">
+          <h2>OUR PORTFOLIO</h2>
+          <hr />
+          <p class="sk">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="bottom-area">
+          <button type="button" data-filter="all">all</button>
+          <button type="button" data-filter=".web">web</button>
+          <button type="button" data-filter=".apps">apps</button>
+          <button type="button" data-filter=".icons">icons</button>
+        </div>
+      </div>
+
+      <div class="row skm">
+        <div class="box col span_1_of_2 mix icons apps">
+          <img src="image/pr1.png" alt="" />
+          <h5>Isometric Perspective Mock-Up</h5>
+        </div>
+        <div class="box col span_1_of_2 mix web">
+          <img src="image/pr2.png" alt="" />
+          <h5>Time Zone App UI</h5>
+        </div>
+        <div class="box col span_1_of_2 mix icons apps">
+          <img src="image/pr3.png" alt="" />
+          <h5>Viro Media Players UI</h5>
+        </div>
+        <div class="box col span_1_of_2 mix web icons">
+          <img src="image/pr4.png" alt="" />
+          <h5>Blog / Magazine Flat UI Kit</h5>
+        </div>
+      </div>
+      <div class="row">
+        <a href="#" class="btn btn-load">LOAD MORE PROJECTS</a>
+      </div>
+    </section>
+
+    <!-- protfollio area end from here -->
+    <!-- about area start from here -->
+
+    <section class="about-area" id="about">
+      <div class="row">
+        <div class="text-area">
+          <h2>WHAT POEPLE SAY ABOUT US</h2>
+          <hr />
+          <p>Our clients love us!</p>
+        </div>
+      </div>
+      <div class="row lk">
+        <div class="box col span_1_of_2">
+          <div class="about-photo">
+            <img src="image/ss1.jpg" alt="ss" />
+          </div>
+          <div class="about-text">
+            <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+            <h3>Chanel Iman</h3>
+            <span>CEO of Pinterest </span>
+          </div>
+        </div>
+        <div class="box col span_1_of_2">
+          <div class="about-photo">
+            <img src="image/ss2.jpg" alt="ss" />
+          </div>
+          <div class="about-text">
+            <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+            <h3>Chanel Iman</h3>
+            <span>CEO of Pinterest </span>
+          </div>
+        </div>
+        <div class="box col span_1_of_2">
+          <div class="about-photo">
+            <img src="image/ss3.jpg" alt="ss" />
+          </div>
+          <div class="about-text">
+            <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+            <h3>Chanel Iman</h3>
+            <span>CEO of Pinterest </span>
+          </div>
+        </div>
+
+        <div class="box col span_1_of_2">
+          <div class="about-photo">
+            <img src="image/ss4.jpg" alt="ss" />
+          </div>
+          <div class="about-text">
+            <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+            <h3>Chanel Iman</h3>
+            <span>CEO of Pinterest </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about area end from here -->
+
+    <!-- from area start from here -->
+
+    <section class="from-area" id="contact">
+      <div class="row">
+        <div class="text-area">
+          <h2>get in touch</h2>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aliquam.</p>
+        </div>
+      </div>
+      <form>
+        <div class="row">
+          <div class="row col span_1_of_2">
+            <input type="text" placeholder="your name*" name="name" required />
+          </div>
+          <div class="row col span_1_of_2">
+            <input type="Email" placeholder="email*" name="email" required />
+          </div>
+        </div>
+        <div class="row">
+          <textarea name="massage" placeholder="massage*" cols="30" rows="10"></textarea>
+        </div>
+        <div class="row">
+          <input class="btn btn-input" type="submit" value="send massage" />
+        </div>
+      </form>
+    </section>
+    <!-- form area end from here -->
+    <!-- footer area start from here -->
+    <div class="footer-area">
+      <ul>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">google+</a></li>
+        <li><a href="#">youtube</a></li>
+        <li><a href="#">linklend</a></li>
+        <li><a href="#">instgram</a></li>
+      </ul>
+    </div>
+
+    <!-- foooter area end from here -->
+
+    <!-- javascript link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/pie-chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
